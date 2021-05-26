@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.xin {
+  width: 470px;
+  margin: 0 auto;
+  background-color: #011957;
+  overflow: hidden;
+}
+header {
+  width: 100%;
+}
+header img {
+  width: 100%;
+}
+.navitems {
+  width: 100%;
+}
+.navitems .nav li {
+  list-style: none;
+  float: left;
+  margin-left: 13px;
+  margin-top: 20px;
+}
+.navitems .nav li a {
+  display: inline-block;
+  width: 100px;
+  height: 35px;
+  border-radius: 13px;
+  text-decoration: none;
+  background-color: #6745b5;
+  line-height: 35px;
+  font-size: 18px;
+  color: white;
+  text-indent: 5px;
+  border: 1px solid #6745b5;
+  box-shadow: 0px 10px 0px 0px #3e13a0;
+  position: relative;
+}
+.navitems .nav li a span {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  right: 5px;
+  top: 10px;
+  border-radius: 5px;
+  background: url(images/125.png) no-repeat 0px 0px;
+  opacity: 0.6;
+}
+.main .main_cp {
+  clear: both;
+  padding-top: 30px;
+}
+.main .main_cp li {
+  list-style: none;
+  float: left;
+  width: 220px;
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 310px;
+  border: 1px solid #888;
+  border-radius: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: #fff;
+  position: relative;
+}
+.main .main_cp li img {
+  width: 100%;
+}
+.main .main_cp li p {
+  padding: 0 5px;
+  font-size: 19px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.main .main_cp li h2 {
+  padding: 0 5px;
+  color: red;
+}
+.main .main_cp li b {
+  padding: 0 5px;
+  text-decoration: line-through;
+}
+.main .main_cp li a {
+  position: absolute;
+  width: 44px;
+  height: 48px;
+  background-color: red;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  right: 15px;
+  bottom: 10px;
+}
